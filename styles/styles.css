@@ -8,6 +8,33 @@ body {
     flex-direction: row-reverse;
     width: 1200px;
     margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.circle-1 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -15px;
+    right: -41px;
+    
+}
+
+.circle-2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -72px;
+    left: 251px;
+}
+
+.circle-3 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: -108px;
+    right: -105px;
 }
 .main-content {
     background-color: #fff;
@@ -49,7 +76,7 @@ width: 600px;
 .projects,
 .project-link {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 14px;
     line-height: 24px;
     color: #595959;
@@ -73,7 +100,7 @@ width: 600px;
 font-weight: 700;
 font-size: 22px;
 line-height: 27px;
-color: #000000;
+color: #fb6d3a;
 margin-bottom: 10px;
 }
 .projects-list {
@@ -102,7 +129,7 @@ margin-bottom: 10px;}
 font-weight: 700;
 font-size: 16px;
 line-height: 20px;
-color: #FB6D3A;}
+color: #1e2939;}
 .period {
     font-style: normal;
 font-weight: 400;
@@ -191,7 +218,7 @@ margin-right: 10px;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
-color: #565e6a;
+color: #fff;
 }
 .tech-skills-list,
 .soft-skills-list {
@@ -211,4 +238,18 @@ font-size: 14px;
 line-height: 24px;
 color: #FFFFFF;
 
+}
+
+.sidebar-icon_list img {
+    width: 20px;
+    height: 20px;
+}
+
+.github-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-link:hover {
+    color: #fb6d3a;
 }
