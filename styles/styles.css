@@ -212,10 +212,14 @@ body {
     width: 370px;
     margin-bottom: 50px;
 }
+
+.sidebar-container {
+    padding-left: 70px;
+}
 .contacts,
 .tech-skills,
 .soft-skills {
-    margin-left: 40px;
+    margin-left: 0;
 }
 .contacts {
     margin-bottom: 50px;
@@ -249,7 +253,7 @@ body {
 .contact-link {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #fff;
     text-decoration: none;
@@ -271,7 +275,7 @@ body {
 .soft-skills-text {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
 }
