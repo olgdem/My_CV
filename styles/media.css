@@ -1,0 +1,146 @@
+@media screen and (max-width: 768px) {
+
+    .main {
+        width: 768px;
+    }
+    .main-content {
+        padding-top: 67px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 595px;
+    }
+
+    .circle-1 {
+        display: none;
+    }
+
+    .circle-2 {
+        top: -132px;
+        left: 151px;
+    }
+
+    .circle-3 {
+        width: 292px;
+    }
+
+    .about {
+        width: 405px;
+        margin-right: 0;
+    }
+
+    .about-name {
+        font-size: 39px;
+    }
+
+    .about-description {
+        width: 396px;
+        font-size: 16px;
+    }
+
+    .projects, .project-link {
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .sidebar {
+        padding-top: 0;
+        width: 300px;
+    }
+
+    .sidebar-container {
+        padding-left: 24px;
+    }
+
+    .photo {
+        width: 234px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .main {
+        flex-direction: column;
+        width: 320px;  
+    }
+
+    .circle-3 {
+        bottom: -243px;
+        right: 0;
+        left: 73px;
+    }
+
+    .main-content {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 280px;
+    }
+
+    .about-description {
+        width: 280px;
+        font-size: 15px;
+        padding-top: 1114px;
+    }
+
+    .about {
+        width: 300px;
+    }
+
+    .projects, .project-link {
+        font-size: 16px;
+    }
+
+    .projects-dots {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .work-list-item {
+        font-size: 17px;
+    }
+
+    .period {
+        
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .university {
+        line-height: 22px;
+    }
+
+    .department {
+        line-height: 22px;
+    }
+
+    .sidebar {
+        position: absolute;
+        width: 320px;
+        top: 201px;
+    }
+
+    .photo {
+        width: 320px;
+    }
+
+    .sidebar-title {
+        margin-top: 0;
+    }
+
+    .tech-skills {
+        height: 160px;
+        margin-bottom: 0;
+    }
+
+    .tech-skills-list, .soft-skills-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tech-skills-item, .soft-skills-item {
+        margin-right: 30px;
+    }
+
+    .soft-skills {
+        height: 140px;
+    }
+}
